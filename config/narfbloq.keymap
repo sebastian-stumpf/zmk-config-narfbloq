@@ -16,6 +16,7 @@
                           &kp LC(LEFT)     &kp C_AL_CALC    &kp LC(RIGHT)
             &kp C_MUTE    &kp LS(LEFT)     &lt LOWER SPACE  &kp LS(RIGHT)
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         lower_layer {
             label = "LOWER";
@@ -24,6 +25,7 @@
                           &reset          &none             &bootloader
              &none        &none           &none             &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
