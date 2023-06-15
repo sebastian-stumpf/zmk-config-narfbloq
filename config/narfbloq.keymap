@@ -22,7 +22,7 @@
             label = "LOWER";
             bindings = <
                           &bt BT_PRV      &bt BT_CLR        &bt BT_NXT
-                          &reset          &none             &bootloader
+                          &sys_reset      &none             &bootloader
              &none        &none           &none             &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
